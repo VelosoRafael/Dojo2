@@ -1,0 +1,1268 @@
+[
+  {
+    "uri": "features/SuiteOnDemandPage.feature",
+    "id": "operações-de-cadastro",
+    "keyword": "Funcionalidade",
+    "name": "Operações de Cadastro",
+    "description": "\tEu como administrador\n\tQuero obter Acesso ao SuiteOnDemands\n\tPara cadastrar, deletar ou alterar Tasks",
+    "line": 4,
+    "comments": [
+      {
+        "value": "#utf-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30294
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66987
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10868490835
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 41,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Alfa\" criada",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4264607662
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2247315310
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"In Progress\",\"Contact\",\"Medium\",\"01\",\"00\"",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4906882680
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Alfa\"",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223184354
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266888619
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509872414
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26453
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23467
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3600851711
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;3",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 42,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Beta\" criada",
+            "line": 42,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2706830455
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 42,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1545281862
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"Deferred\",\"Opportunity\",\"Low\",\"02\",\"15\"",
+            "line": 42,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4641383712
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Beta\"",
+            "line": 42,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224736993
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259463348
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550117269
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20907
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19200
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3578830619
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;4",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 43,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Charlie\" criada",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3135478440
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1619689020
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"In Progress\",\"Target\",\"Low\",\"03\",\"30\"",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4713867460
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Charlie\"",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222844728
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250754665
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 490944651
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18773
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17919
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3209070666
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;5",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 44,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Delta\" criada",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2936007762
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1720275132
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"Deferred\",\"Project\",\"Medium\",\"04\",\"45\"",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5875564533
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Delta\"",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197432067
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251597331
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531651160
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28587
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25174
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4166509867
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;6",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 45,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Echo\" criada",
+            "line": 45,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1464493059
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 45,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1571920335
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"Not Started\",\"Account\",\"Low\",\"05\",\"00\"",
+            "line": 45,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4381369538
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Echo\"",
+            "line": 45,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233386368
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259512414
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468291667
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19627
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17067
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4045256049
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;7",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 46,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Foxtrot\" criada",
+            "line": 46,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3141636512
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 46,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2057573900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"Pending Input\",\"Task\",\"Low\",\"06\",\"15\"",
+            "line": 46,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5248969494
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Foxtrot\"",
+            "line": 46,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254986340
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261877851
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509067295
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29014
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19627
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4742975902
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;8",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 47,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Golf\" criada",
+            "line": 47,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3298137645
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 47,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2020003388
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"In Progress\",\"Case\",\"High\",\"07\",\"30\"",
+            "line": 47,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4658752010
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Golf\"",
+            "line": 47,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243242782
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250491840
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508872735
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19627
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19200
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3288264591
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;9",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 48,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Hotel\" criada",
+            "line": 48,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2641080780
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 48,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1962703835
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"Not Started\",\"Project Task\",\"High\",\"08\",\"45\"",
+            "line": 48,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6834667305
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Hotel\"",
+            "line": 48,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240415692
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260087987
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653258257
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20906
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17493
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3261670492
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;10",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 49,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"India\" criada",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2659810142
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1717617428
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"Pending Input\",\"Lead\",\"Low\",\"09\",\"00\"",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4747445657
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"India\"",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224602592
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261850545
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500996052
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Acessar SuiteOnDemands",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37973
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23467
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario esteja logado",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/SOD_abertura_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4085898984
+            }
+          }
+        ]
+      },
+      {
+        "id": "operações-de-cadastro;editar-task;;11",
+        "keyword": "Esquema do Cenario",
+        "name": "Editar Task",
+        "description": "",
+        "line": 50,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Editar",
+            "line": 32
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "buscar pelo nome da \"Juliet\" criada",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3134410068
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o resultado da busca",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1543560264
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar alterações nos campos: \"Not Started\",\"Bug\",\"Medium\",\"10\",\"15\"",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4743901768
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "voltará para a tela principal da \"Juliet\"",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/SOD_editarTask_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240575266
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252291091
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.16.1/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542487625
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

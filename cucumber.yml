@@ -1,0 +1,8 @@
+# Profile que irá formatar um arquivo pretty
+default: --no-source --color --format pretty
+
+criar: -t @Cadastro -f pretty -f html -o evidenciaCadastro.html
+
+editar: -t @Editar -f progress -f json -o evidenciaEdicao.json
+
+excluir: -t @Excluir -f usage -f html -o evidenciaExclusao.html

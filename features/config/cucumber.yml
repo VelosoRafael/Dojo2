@@ -1,0 +1,9 @@
+# Profile que irá formatar um arquivo pretty
+default: --no-source --color --format prettu
+
+# Profile que i´ra executar funcionalidades/cenários que tenhas as tags
+# @daily E @important
+criar: -t @Cadastro -f pretty -f html -o evidenciaCadastro.html
+
+# Executará cenários que contenham a tag @importante OU @carrinho ou @Cadastro e irá formatar e gerar um report no formato HTML
+regressao: -t @important, @cart, @register -f html
